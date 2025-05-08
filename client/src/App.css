@@ -1,0 +1,90 @@
+
+
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f96d00, #ffcc00); /* Gradient background */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for the whole app */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.9); /* White background with slight opacity */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Heading */
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase; /* Makes heading more bold and prominent */
+}
+
+/* Playlist and Song container */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow on list items */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for list items */
+li:hover {
+    transform: translateY(-5px); /* Slight lift effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Button Styles */
+button {
+    background-color: #ffcc00; /* Soft yellow button */
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #f96d00; /* Darker yellow on hover */
+    transform: translateY(-3px); /* Button hover lift */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}

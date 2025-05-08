@@ -1,0 +1,31 @@
+.playlist-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.playlist-title {
+    color: #f96d00;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.playlist-item {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border: 1px solid #f96d00;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.playlist-item:hover {
+    background-color: #f96d00;
+    color: #fff;
+    cursor: pointer;
+}

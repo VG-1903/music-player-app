@@ -1,0 +1,30 @@
+.song-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.song-title {
+    color: #f96d00;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.song-item {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border: 1px solid #f96d00;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.song-item:hover {
+    background-color: #f96d00;
+    color: #fff;
+    cursor: pointer;
+}
